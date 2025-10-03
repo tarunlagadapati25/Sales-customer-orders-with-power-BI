@@ -79,7 +79,7 @@ The dashboard includes multiple pages and visual types:
 ## 🚀 How to Use
 1. Clone this repository:
     ```bash
-    git clone <repository_url>
+    git clone 
     ```
 2. Open the `.pbix` file using **Power BI Desktop**.
 3. Configure your data source connections.
@@ -87,5 +87,3 @@ The dashboard includes multiple pages and visual types:
 5. Interact with the slicers and visuals to explore insights.
 
 ---
-
-*Created with ❤️ for insightful sales analytics.*
