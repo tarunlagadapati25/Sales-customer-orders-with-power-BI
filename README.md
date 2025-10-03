@@ -9,7 +9,6 @@ This repository contains the analysis and visualization of sales data for a reta
 ## 📈 Dashboard Overview
 The interactive dashboard provides a multi-faceted view of the company's sales performance. Stakeholders can drill down into specifics, from high-level yearly trends to individual product profitability.
 
-> *(Consider embedding a high-level screenshot of the dashboard here for visual appeal.)*
 
 ---
 
