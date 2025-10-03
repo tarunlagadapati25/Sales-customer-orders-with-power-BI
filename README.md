@@ -79,7 +79,7 @@ The dashboard includes multiple pages and visual types:
 ## 🚀 How to Use
 1. Clone this repository:
     ```bash
-    git clone 
+    git clone https://github.com/tarunlagadapati25/Sales-customer-orders-with-power-BI.git
     ```
 2. Open the `.pbix` file using **Power BI Desktop**.
 3. Configure your data source connections.
