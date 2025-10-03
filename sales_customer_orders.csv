@@ -1,0 +1,501 @@
+OrderID,OrderDate,CustomerID,CustomerName,Region,State,City,ProductCategory,ProductName,Quantity,UnitPrice,TotalSales,Profit
+1,2023-05-23,C2424,Customer_217,North,New York,Buffalo,Furniture,Table,2,679.93,1359.86,371.3
+2,2024-06-01,C9928,Customer_215,North,New York,New York City,Furniture,Table,10,36.27,362.7,36.16
+3,2024-03-08,C6514,Customer_53,South,Florida,Orlando,Electronics,Smartphone,6,285.09,1710.54,177.6
+4,2023-09-28,C7201,Customer_41,North,Massachusetts,Boston,Clothing,Jacket,1,732.43,732.43,134.81
+5,2023-02-16,C4814,Customer_52,East,New Jersey,Jersey City,Furniture,Chair,4,775.34,3101.36,918.95
+6,2024-01-15,C2169,Customer_88,West,Washington,Spokane,Clothing,Jeans,6,217.41,1304.46,152.29
+7,2024-07-24,C1916,Customer_118,South,Texas,Dallas,Food & Beverages,Juice,4,687.77,2751.08,717.24
+8,2023-08-05,C9179,Customer_203,North,Massachusetts,Cambridge,Clothing,Shirt,10,877.6,8776.0,1129.2
+9,2024-07-28,C7543,Customer_186,West,California,San Francisco,Furniture,Table,9,270.11,2430.99,476.83
+10,2023-04-23,C7916,Customer_33,South,Texas,Dallas,Electronics,Laptop,3,631.17,1893.51,469.63
+11,2023-04-28,C6573,Customer_58,West,Washington,Spokane,Clothing,Shirt,9,753.37,6780.33,1641.85
+12,2023-09-27,C2743,Customer_153,East,Maryland,Baltimore,Food & Beverages,Coffee,9,764.34,6879.06,1217.05
+13,2023-11-28,C6038,Customer_123,South,Texas,Dallas,Furniture,Chair,8,29.28,234.24,66.12
+14,2023-03-12,C8787,Customer_282,North,New York,New York City,Electronics,Tablet,9,768.18,6913.62,567.59
+15,2023-11-16,C8177,Customer_265,South,Florida,Orlando,Furniture,Table,7,995.2,6966.4,1480.15
+16,2023-12-13,C4608,Customer_4,West,California,Los Angeles,Furniture,Chair,1,592.43,592.43,63.7
+17,2023-02-02,C8953,Customer_110,North,Pennsylvania,Philadelphia,Furniture,Chair,6,80.15,480.9,52.66
+18,2024-02-21,C6804,Customer_217,South,Georgia,Savannah,Furniture,Desk,4,103.38,413.52,88.8
+19,2024-02-17,C4139,Customer_98,West,Washington,Seattle,Electronics,Laptop,6,802.59,4815.54,372.32
+20,2024-04-18,C2604,Customer_26,West,California,San Francisco,Furniture,Sofa,4,875.74,3502.96,241.17
+21,2024-05-12,C1960,Customer_85,North,New York,New York City,Furniture,Desk,8,221.61,1772.88,266.39
+22,2023-10-20,C8973,Customer_80,West,California,San Francisco,Clothing,Shoes,7,699.63,4897.41,1139.27
+23,2023-11-18,C9701,Customer_81,South,Florida,Miami,Electronics,Laptop,1,59.64,59.64,10.09
+24,2023-03-11,C5033,Customer_297,North,Pennsylvania,Philadelphia,Furniture,Chair,4,409.74,1638.96,467.76
+25,2023-09-25,C5351,Customer_203,North,Pennsylvania,Philadelphia,Food & Beverages,Juice,4,673.03,2692.12,346.06
+26,2023-03-16,C2638,Customer_38,South,Georgia,Savannah,Food & Beverages,Juice,1,463.7,463.7,138.93
+27,2023-03-12,C9900,Customer_155,South,Georgia,Savannah,Furniture,Sofa,4,375.83,1503.32,134.45
+28,2023-09-28,C3546,Customer_140,North,Pennsylvania,Pittsburgh,Electronics,Smartphone,2,890.82,1781.64,419.76
+29,2023-09-28,C1832,Customer_48,East,New Jersey,Newark,Clothing,Jeans,9,493.65,4442.85,1227.71
+30,2023-05-14,C8007,Customer_288,West,Washington,Seattle,Electronics,Headphones,5,169.97,849.85,136.37
+31,2024-01-14,C1685,Customer_158,North,New York,New York City,Furniture,Chair,10,557.0,5570.0,876.98
+32,2023-04-16,C7658,Customer_80,East,Virginia,Norfolk,Furniture,Table,6,782.32,4693.92,1272.21
+33,2023-07-03,C5065,Customer_137,South,Texas,Houston,Food & Beverages,Coffee,6,784.56,4707.36,719.89
+34,2024-04-26,C6728,Customer_157,South,Georgia,Atlanta,Food & Beverages,Coffee,4,207.58,830.32,232.17
+35,2023-12-03,C5573,Customer_180,South,Texas,Houston,Furniture,Desk,5,865.71,4328.55,1262.73
+36,2023-09-25,C1626,Customer_56,West,Oregon,Eugene,Electronics,Laptop,3,584.78,1754.34,519.09
+37,2024-01-30,C8144,Customer_1,West,Washington,Spokane,Food & Beverages,Coffee,10,198.18,1981.8,121.08
+38,2023-11-18,C6067,Customer_210,South,Florida,Orlando,Electronics,Headphones,2,722.56,1445.12,180.76
+39,2024-03-06,C5930,Customer_208,East,Maryland,Rockville,Furniture,Table,7,680.54,4763.78,1313.38
+40,2024-08-16,C8244,Customer_110,North,Massachusetts,Cambridge,Furniture,Desk,10,658.16,6581.6,1094.17
+41,2024-06-11,C4848,Customer_159,West,Oregon,Portland,Electronics,Headphones,10,341.84,3418.4,870.34
+42,2023-09-08,C8461,Customer_213,South,Texas,Houston,Electronics,Laptop,8,615.16,4921.28,1191.55
+43,2023-09-07,C2746,Customer_218,South,Georgia,Savannah,Food & Beverages,Bread,3,659.5,1978.5,101.67
+44,2023-05-05,C9702,Customer_287,South,Texas,Dallas,Electronics,Smartphone,8,142.01,1136.08,188.77
+45,2024-05-01,C5543,Customer_267,East,Maryland,Rockville,Food & Beverages,Snacks,8,266.6,2132.8,238.47
+46,2023-03-21,C9849,Customer_42,West,Oregon,Portland,Clothing,Shoes,5,242.15,1210.75,162.19
+47,2023-08-08,C8633,Customer_213,South,Texas,Houston,Food & Beverages,Snacks,2,420.72,841.44,111.68
+48,2024-08-12,C5892,Customer_200,North,New York,Buffalo,Food & Beverages,Coffee,7,482.21,3375.47,964.32
+49,2023-10-07,C7624,Customer_85,West,Oregon,Portland,Food & Beverages,Snacks,7,490.79,3435.53,505.76
+50,2023-03-27,C1823,Customer_134,West,California,Los Angeles,Food & Beverages,Coffee,7,144.34,1010.38,167.14
+51,2023-12-12,C7906,Customer_130,West,Washington,Seattle,Food & Beverages,Juice,7,285.47,1998.29,575.11
+52,2023-08-18,C1508,Customer_127,North,Massachusetts,Boston,Electronics,Headphones,2,783.42,1566.84,333.64
+53,2024-04-29,C5198,Customer_189,South,Texas,Houston,Furniture,Table,2,568.33,1136.66,118.77
+54,2023-04-21,C7149,Customer_204,South,Georgia,Atlanta,Furniture,Sofa,10,35.42,354.2,45.33
+55,2023-05-04,C8018,Customer_190,South,Texas,Houston,Electronics,Headphones,10,784.81,7848.1,1073.63
+56,2024-05-16,C8532,Customer_79,North,Pennsylvania,Pittsburgh,Electronics,Tablet,2,439.19,878.38,123.45
+57,2024-03-22,C2419,Customer_143,West,California,San Francisco,Food & Beverages,Bread,10,275.71,2757.1,724.92
+58,2023-01-30,C4475,Customer_182,West,California,San Francisco,Food & Beverages,Juice,8,852.44,6819.52,650.99
+59,2024-06-13,C9004,Customer_285,East,Maryland,Rockville,Clothing,Shirt,4,94.76,379.04,87.19
+60,2023-01-18,C4986,Customer_157,South,Georgia,Savannah,Food & Beverages,Bread,2,301.29,602.58,91.05
+61,2023-12-27,C2976,Customer_99,East,Maryland,Rockville,Food & Beverages,Juice,8,278.21,2225.68,251.17
+62,2024-05-10,C9595,Customer_145,East,Virginia,Richmond,Furniture,Table,5,727.34,3636.7,1069.74
+63,2023-07-03,C5494,Customer_24,North,New York,Buffalo,Furniture,Sofa,5,24.01,120.05,22.03
+64,2023-04-16,C8216,Customer_175,North,Pennsylvania,Pittsburgh,Furniture,Desk,1,578.32,578.32,96.78
+65,2023-03-08,C1878,Customer_78,South,Texas,Dallas,Food & Beverages,Coffee,7,496.83,3477.81,675.58
+66,2023-05-02,C4697,Customer_268,South,Georgia,Savannah,Electronics,Smartphone,9,766.8,6901.2,1391.14
+67,2023-11-09,C2625,Customer_107,West,Washington,Spokane,Clothing,Shoes,10,624.82,6248.2,1264.68
+68,2023-06-27,C8381,Customer_241,South,Florida,Miami,Furniture,Table,9,84.31,758.79,38.45
+69,2024-04-09,C4241,Customer_218,East,Virginia,Richmond,Clothing,Jacket,2,690.51,1381.02,388.04
+70,2023-05-26,C5728,Customer_225,North,Pennsylvania,Philadelphia,Furniture,Sofa,2,69.04,138.08,34.27
+71,2024-05-27,C1653,Customer_222,North,Massachusetts,Cambridge,Food & Beverages,Juice,9,498.86,4489.74,314.78
+72,2023-08-23,C5415,Customer_296,East,New Jersey,Jersey City,Electronics,Laptop,10,591.25,5912.5,326.29
+73,2023-07-05,C2494,Customer_241,North,New York,Buffalo,Food & Beverages,Juice,10,441.53,4415.3,1119.55
+74,2023-06-14,C7561,Customer_282,East,Maryland,Rockville,Clothing,Shirt,6,417.53,2505.18,435.57
+75,2023-11-28,C9431,Customer_1,North,Massachusetts,Boston,Clothing,Jacket,2,970.48,1940.96,293.17
+76,2024-05-25,C9998,Customer_68,West,Washington,Seattle,Furniture,Sofa,8,762.39,6099.12,615.34
+77,2023-09-03,C7684,Customer_48,East,Maryland,Rockville,Electronics,Laptop,3,317.64,952.92,50.9
+78,2024-05-25,C8905,Customer_242,South,Texas,Dallas,Electronics,Smartphone,5,513.78,2568.9,304.05
+79,2024-06-04,C7798,Customer_175,South,Florida,Miami,Food & Beverages,Snacks,3,865.39,2596.17,309.1
+80,2023-06-02,C9903,Customer_194,East,Virginia,Norfolk,Clothing,Shoes,8,543.19,4345.52,592.21
+81,2023-08-28,C7246,Customer_198,West,Washington,Seattle,Furniture,Desk,7,53.21,372.47,87.97
+82,2023-04-13,C1251,Customer_74,South,Florida,Miami,Furniture,Sofa,8,108.71,869.68,241.43
+83,2023-09-29,C2315,Customer_169,West,Oregon,Portland,Electronics,Tablet,6,627.03,3762.18,561.96
+84,2023-08-29,C8110,Customer_51,West,Washington,Spokane,Electronics,Laptop,5,997.45,4987.25,1180.44
+85,2023-02-17,C7141,Customer_221,North,Massachusetts,Boston,Clothing,Shirt,6,798.18,4789.08,590.69
+86,2023-06-29,C4945,Customer_255,South,Texas,Dallas,Furniture,Table,2,613.4,1226.8,178.67
+87,2023-09-19,C5712,Customer_280,South,Texas,Dallas,Clothing,Shoes,1,899.92,899.92,149.67
+88,2024-03-10,C7302,Customer_248,South,Texas,Dallas,Clothing,Jacket,5,462.27,2311.35,290.14
+89,2023-10-30,C5497,Customer_5,North,New York,Buffalo,Clothing,Jacket,1,978.17,978.17,209.87
+90,2023-12-27,C3240,Customer_50,North,Pennsylvania,Pittsburgh,Clothing,Jeans,4,640.25,2561.0,525.58
+91,2023-05-15,C7807,Customer_90,North,Massachusetts,Cambridge,Electronics,Headphones,2,910.53,1821.06,239.8
+92,2023-09-21,C6549,Customer_59,South,Texas,Dallas,Clothing,Jeans,8,967.71,7741.68,958.31
+93,2024-07-24,C5332,Customer_275,West,California,Los Angeles,Furniture,Desk,6,99.4,596.4,88.65
+94,2024-01-16,C6374,Customer_114,North,Massachusetts,Cambridge,Clothing,Shoes,2,678.09,1356.18,227.66
+95,2023-04-30,C9071,Customer_60,North,Pennsylvania,Pittsburgh,Clothing,Shoes,3,54.89,164.67,9.77
+96,2024-01-15,C3531,Customer_213,North,New York,New York City,Food & Beverages,Bread,9,424.94,3824.46,900.92
+97,2024-01-15,C6942,Customer_51,North,Massachusetts,Cambridge,Clothing,Shirt,4,448.95,1795.8,516.54
+98,2023-10-10,C8450,Customer_47,East,New Jersey,Jersey City,Electronics,Tablet,4,968.52,3874.08,1112.84
+99,2023-09-07,C4394,Customer_111,South,Georgia,Atlanta,Electronics,Headphones,3,789.11,2367.33,239.81
+100,2023-05-29,C2801,Customer_14,South,Florida,Miami,Electronics,Headphones,3,544.81,1634.43,408.0
+101,2023-01-17,C7897,Customer_270,South,Texas,Dallas,Furniture,Sofa,3,272.71,818.13,66.83
+102,2024-01-06,C4629,Customer_23,North,Pennsylvania,Philadelphia,Food & Beverages,Bread,9,597.73,5379.57,876.88
+103,2024-02-16,C8267,Customer_38,East,Maryland,Baltimore,Electronics,Tablet,7,689.24,4824.68,832.58
+104,2023-10-09,C6327,Customer_196,North,Massachusetts,Boston,Electronics,Smartphone,10,636.75,6367.5,1191.29
+105,2024-07-18,C7779,Customer_174,East,Maryland,Rockville,Electronics,Laptop,4,435.77,1743.08,474.16
+106,2024-03-13,C3500,Customer_243,West,Washington,Spokane,Electronics,Headphones,6,668.46,4010.76,575.85
+107,2023-04-09,C6400,Customer_63,North,New York,New York City,Electronics,Tablet,6,813.65,4881.9,923.13
+108,2023-11-16,C3535,Customer_247,West,Washington,Spokane,Electronics,Headphones,6,112.56,675.36,119.44
+109,2023-10-13,C1430,Customer_137,South,Texas,Dallas,Clothing,Shirt,10,233.9,2339.0,367.87
+110,2023-12-26,C7566,Customer_36,North,New York,Buffalo,Clothing,Jacket,1,189.59,189.59,16.27
+111,2024-01-21,C6105,Customer_167,South,Georgia,Atlanta,Electronics,Smartphone,7,459.11,3213.77,287.16
+112,2023-03-25,C8242,Customer_213,North,New York,New York City,Furniture,Chair,5,448.68,2243.4,349.98
+113,2023-04-24,C9633,Customer_158,East,Virginia,Richmond,Clothing,Shoes,5,681.44,3407.2,675.59
+114,2023-07-29,C5186,Customer_149,North,New York,Buffalo,Electronics,Laptop,5,945.87,4729.35,1143.73
+115,2023-06-29,C9196,Customer_287,East,Virginia,Richmond,Food & Beverages,Bread,3,386.41,1159.23,261.89
+116,2023-01-20,C8033,Customer_294,East,Virginia,Norfolk,Electronics,Tablet,8,921.95,7375.6,1958.42
+117,2024-02-19,C8538,Customer_186,West,Oregon,Eugene,Clothing,Shirt,1,966.54,966.54,89.86
+118,2024-02-15,C6562,Customer_114,North,Massachusetts,Boston,Furniture,Desk,9,87.86,790.74,211.63
+119,2023-12-24,C3419,Customer_121,East,Virginia,Richmond,Electronics,Smartphone,6,730.11,4380.66,1115.92
+120,2023-06-06,C9095,Customer_238,North,New York,Buffalo,Furniture,Table,2,185.37,370.74,90.17
+121,2024-03-26,C5500,Customer_29,West,Oregon,Eugene,Clothing,Jeans,2,474.23,948.46,197.13
+122,2024-04-07,C2257,Customer_47,East,New Jersey,Newark,Clothing,Shoes,1,66.32,66.32,17.11
+123,2023-11-26,C2013,Customer_231,West,Washington,Seattle,Food & Beverages,Snacks,10,480.87,4808.7,421.8
+124,2023-09-11,C3600,Customer_187,North,Massachusetts,Boston,Furniture,Chair,8,991.08,7928.64,1435.22
+125,2023-02-23,C7333,Customer_146,East,Maryland,Rockville,Food & Beverages,Juice,6,75.25,451.5,33.24
+126,2024-08-19,C7421,Customer_67,East,New Jersey,Newark,Clothing,Shirt,3,917.58,2752.74,351.13
+127,2024-06-23,C6928,Customer_10,North,Massachusetts,Cambridge,Clothing,Jeans,2,649.56,1299.12,202.47
+128,2024-05-12,C2264,Customer_152,East,Maryland,Baltimore,Furniture,Sofa,4,234.28,937.12,79.08
+129,2024-01-21,C3712,Customer_225,North,Pennsylvania,Philadelphia,Clothing,Jeans,3,170.62,511.86,131.98
+130,2023-10-19,C8684,Customer_100,North,Massachusetts,Cambridge,Furniture,Desk,8,241.66,1933.28,212.26
+131,2024-01-27,C4271,Customer_71,East,New Jersey,Jersey City,Food & Beverages,Juice,9,532.19,4789.71,1396.52
+132,2024-06-12,C5469,Customer_231,East,Virginia,Norfolk,Clothing,Shirt,2,292.21,584.42,140.72
+133,2023-12-24,C7126,Customer_121,South,Florida,Miami,Furniture,Desk,1,420.75,420.75,62.74
+134,2023-11-23,C3392,Customer_71,West,California,San Francisco,Furniture,Chair,2,840.78,1681.56,357.31
+135,2024-04-04,C5193,Customer_111,North,Massachusetts,Cambridge,Furniture,Desk,10,15.2,152.0,10.61
+136,2023-09-01,C8489,Customer_33,South,Georgia,Savannah,Electronics,Headphones,5,130.63,653.15,71.59
+137,2023-10-26,C7825,Customer_96,North,Massachusetts,Boston,Furniture,Table,7,11.55,80.85,11.17
+138,2024-02-04,C7116,Customer_130,North,Pennsylvania,Pittsburgh,Electronics,Laptop,8,53.1,424.8,62.33
+139,2023-04-17,C1726,Customer_181,North,Massachusetts,Boston,Clothing,Jeans,10,737.84,7378.4,982.28
+140,2023-07-06,C8498,Customer_19,East,New Jersey,Newark,Food & Beverages,Bread,3,72.47,217.41,53.06
+141,2023-11-20,C9897,Customer_243,East,Virginia,Richmond,Furniture,Chair,5,520.23,2601.15,773.27
+142,2023-02-18,C8159,Customer_205,East,Virginia,Richmond,Clothing,Jacket,6,280.48,1682.88,420.44
+143,2024-05-24,C2353,Customer_218,West,Washington,Spokane,Furniture,Desk,6,925.07,5550.42,998.07
+144,2023-04-16,C8305,Customer_219,North,Massachusetts,Boston,Clothing,Jacket,2,334.64,669.28,82.93
+145,2023-02-13,C1939,Customer_39,South,Georgia,Savannah,Clothing,Shoes,6,618.7,3712.2,589.26
+146,2024-03-24,C7001,Customer_186,West,Washington,Seattle,Electronics,Smartphone,1,134.97,134.97,14.71
+147,2024-01-15,C3255,Customer_272,West,Oregon,Portland,Furniture,Desk,6,449.5,2697.0,186.69
+148,2023-04-27,C7340,Customer_288,East,Maryland,Rockville,Clothing,Jeans,1,738.32,738.32,129.03
+149,2023-10-20,C2213,Customer_232,North,Massachusetts,Cambridge,Food & Beverages,Snacks,8,208.18,1665.44,139.78
+150,2023-12-22,C5914,Customer_81,South,Georgia,Savannah,Electronics,Headphones,2,554.5,1109.0,135.95
+151,2023-05-23,C7044,Customer_240,South,Florida,Miami,Electronics,Smartphone,4,792.47,3169.88,179.32
+152,2024-02-12,C2208,Customer_65,South,Georgia,Atlanta,Electronics,Headphones,8,530.44,4243.52,1028.17
+153,2024-06-13,C3981,Customer_67,East,New Jersey,Newark,Food & Beverages,Bread,6,137.05,822.3,211.55
+154,2023-11-08,C4694,Customer_178,West,Oregon,Portland,Electronics,Smartphone,3,170.35,511.05,144.98
+155,2023-05-09,C3762,Customer_298,East,Virginia,Norfolk,Furniture,Sofa,5,618.28,3091.4,226.78
+156,2023-03-25,C5336,Customer_108,South,Texas,Dallas,Electronics,Laptop,1,949.06,949.06,230.39
+157,2023-11-06,C7653,Customer_153,West,Oregon,Portland,Food & Beverages,Juice,8,252.43,2019.44,508.57
+158,2024-03-01,C3353,Customer_161,West,California,Los Angeles,Furniture,Desk,8,469.8,3758.4,507.56
+159,2024-01-15,C8642,Customer_63,East,New Jersey,Jersey City,Food & Beverages,Snacks,9,566.03,5094.27,661.13
+160,2023-02-21,C7850,Customer_128,East,Maryland,Baltimore,Furniture,Chair,5,945.93,4729.65,1258.28
+161,2024-05-25,C9148,Customer_12,South,Florida,Orlando,Furniture,Table,9,472.15,4249.35,1146.34
+162,2024-08-20,C8710,Customer_147,North,Massachusetts,Cambridge,Furniture,Table,6,58.17,349.02,42.0
+163,2024-01-10,C4189,Customer_186,North,New York,Buffalo,Furniture,Sofa,7,372.28,2605.96,391.27
+164,2023-05-02,C6555,Customer_286,East,Virginia,Norfolk,Food & Beverages,Juice,3,975.33,2925.99,434.44
+165,2023-02-16,C8761,Customer_266,East,Virginia,Richmond,Food & Beverages,Coffee,1,145.67,145.67,19.41
+166,2023-06-16,C5902,Customer_173,West,California,Los Angeles,Clothing,Jacket,7,990.71,6934.97,1628.54
+167,2024-01-13,C6040,Customer_14,West,Oregon,Eugene,Food & Beverages,Coffee,6,677.07,4062.42,1198.31
+168,2023-06-24,C7229,Customer_76,West,Washington,Seattle,Electronics,Tablet,9,632.73,5694.57,1167.01
+169,2024-03-27,C4340,Customer_211,South,Texas,Houston,Furniture,Chair,6,424.59,2547.54,390.39
+170,2024-07-28,C7173,Customer_161,West,Oregon,Portland,Furniture,Table,6,998.14,5988.84,1015.66
+171,2024-05-10,C5890,Customer_116,South,Florida,Orlando,Clothing,Jacket,4,957.76,3831.04,458.77
+172,2024-05-06,C5480,Customer_148,East,Maryland,Baltimore,Food & Beverages,Juice,6,564.88,3389.28,961.27
+173,2023-05-30,C2294,Customer_178,North,Pennsylvania,Pittsburgh,Food & Beverages,Juice,5,51.65,258.25,74.59
+174,2023-07-26,C5450,Customer_71,West,Oregon,Eugene,Food & Beverages,Snacks,9,278.42,2505.78,477.36
+175,2024-06-27,C7771,Customer_170,North,Pennsylvania,Philadelphia,Furniture,Chair,4,641.57,2566.28,161.99
+176,2024-02-21,C5706,Customer_165,West,California,Los Angeles,Electronics,Smartphone,8,482.67,3861.36,385.61
+177,2024-07-01,C3880,Customer_19,East,New Jersey,Newark,Electronics,Smartphone,1,914.1,914.1,85.71
+178,2023-01-10,C6489,Customer_146,West,Washington,Seattle,Clothing,Shirt,5,572.28,2861.4,219.83
+179,2023-10-07,C8518,Customer_132,West,Oregon,Eugene,Furniture,Desk,4,810.73,3242.92,430.24
+180,2023-06-29,C8007,Customer_264,South,Texas,Dallas,Clothing,Jeans,10,857.59,8575.9,2352.03
+181,2023-05-24,C5272,Customer_197,East,Virginia,Norfolk,Electronics,Smartphone,8,330.37,2642.96,296.04
+182,2024-08-19,C4871,Customer_32,South,Florida,Orlando,Clothing,Jacket,10,21.32,213.2,45.5
+183,2024-05-29,C5833,Customer_189,North,Massachusetts,Cambridge,Furniture,Desk,5,693.39,3466.95,726.94
+184,2024-04-10,C8714,Customer_276,South,Texas,Houston,Food & Beverages,Snacks,10,379.89,3798.9,856.6
+185,2023-03-21,C9281,Customer_104,South,Texas,Houston,Food & Beverages,Juice,10,121.09,1210.9,311.44
+186,2023-07-30,C8298,Customer_29,South,Texas,Dallas,Food & Beverages,Coffee,10,493.94,4939.4,1356.96
+187,2024-07-26,C1356,Customer_203,West,California,San Francisco,Food & Beverages,Coffee,8,676.04,5408.32,687.09
+188,2024-03-09,C1987,Customer_36,East,Virginia,Richmond,Electronics,Laptop,6,703.38,4220.28,781.98
+189,2023-05-19,C8348,Customer_194,West,California,San Francisco,Food & Beverages,Snacks,7,380.72,2665.04,727.11
+190,2023-07-02,C4648,Customer_2,West,California,Los Angeles,Clothing,Shirt,9,399.13,3592.17,293.97
+191,2023-08-24,C4088,Customer_58,North,Massachusetts,Cambridge,Food & Beverages,Bread,4,466.02,1864.08,165.49
+192,2023-07-31,C1797,Customer_126,North,Pennsylvania,Pittsburgh,Electronics,Smartphone,2,109.89,219.78,12.83
+193,2023-02-27,C6224,Customer_296,North,Massachusetts,Cambridge,Furniture,Table,3,508.86,1526.58,186.72
+194,2024-02-28,C3869,Customer_219,East,Virginia,Norfolk,Furniture,Table,5,282.4,1412.0,267.12
+195,2024-03-02,C9813,Customer_243,West,California,San Francisco,Food & Beverages,Juice,7,157.73,1104.11,159.12
+196,2023-03-01,C9683,Customer_69,South,Texas,Dallas,Furniture,Desk,9,418.55,3766.95,580.59
+197,2023-03-22,C4120,Customer_27,West,California,San Francisco,Furniture,Sofa,8,848.66,6789.28,496.4
+198,2024-07-26,C6455,Customer_156,East,Maryland,Baltimore,Electronics,Smartphone,4,484.6,1938.4,518.27
+199,2023-09-06,C4921,Customer_283,North,New York,New York City,Electronics,Tablet,10,706.73,7067.3,1054.14
+200,2023-11-12,C8635,Customer_51,East,Maryland,Rockville,Food & Beverages,Juice,5,366.05,1830.25,495.45
+201,2024-02-28,C3390,Customer_9,West,Washington,Seattle,Clothing,Jacket,1,566.9,566.9,59.71
+202,2023-07-20,C5026,Customer_256,East,New Jersey,Jersey City,Clothing,Jeans,6,237.72,1426.32,274.49
+203,2023-06-22,C9000,Customer_95,East,Maryland,Rockville,Food & Beverages,Bread,6,177.57,1065.42,245.13
+204,2023-01-07,C2113,Customer_78,North,Pennsylvania,Philadelphia,Electronics,Laptop,7,146.12,1022.84,212.42
+205,2024-05-09,C7739,Customer_7,North,New York,Buffalo,Clothing,Shirt,8,25.57,204.56,37.45
+206,2024-05-29,C2753,Customer_50,North,Pennsylvania,Pittsburgh,Clothing,Shirt,7,808.11,5656.77,1569.43
+207,2023-10-01,C8520,Customer_290,South,Texas,Houston,Clothing,Jacket,7,88.23,617.61,179.0
+208,2023-02-02,C8798,Customer_29,South,Georgia,Atlanta,Clothing,Shirt,2,411.23,822.46,118.67
+209,2024-03-20,C2562,Customer_271,North,Pennsylvania,Philadelphia,Electronics,Tablet,6,570.2,3421.2,904.87
+210,2023-02-17,C9897,Customer_289,North,New York,New York City,Food & Beverages,Juice,2,687.58,1375.16,165.15
+211,2023-05-28,C4939,Customer_291,North,New York,Buffalo,Electronics,Smartphone,7,929.59,6507.13,812.21
+212,2023-03-22,C2600,Customer_224,West,Oregon,Eugene,Food & Beverages,Snacks,9,748.0,6732.0,918.68
+213,2023-01-31,C4737,Customer_183,South,Texas,Dallas,Food & Beverages,Juice,5,785.71,3928.55,638.93
+214,2023-10-30,C3526,Customer_195,West,Washington,Seattle,Food & Beverages,Coffee,4,715.98,2863.92,201.93
+215,2023-04-20,C6896,Customer_139,South,Georgia,Savannah,Clothing,Jacket,2,15.14,30.28,3.85
+216,2024-04-04,C1430,Customer_46,North,New York,New York City,Furniture,Desk,9,559.19,5032.71,765.03
+217,2023-01-13,C4977,Customer_293,East,New Jersey,Newark,Clothing,Shoes,5,419.67,2098.35,513.66
+218,2023-10-03,C3739,Customer_223,South,Georgia,Savannah,Furniture,Table,5,275.72,1378.6,119.23
+219,2024-01-05,C9123,Customer_101,East,Maryland,Rockville,Food & Beverages,Coffee,5,944.78,4723.9,1087.56
+220,2024-02-10,C6399,Customer_226,West,California,Los Angeles,Clothing,Shirt,6,843.2,5059.2,733.44
+221,2023-07-25,C6228,Customer_150,East,Maryland,Baltimore,Clothing,Jacket,8,321.04,2568.32,747.75
+222,2023-10-15,C4273,Customer_280,West,Oregon,Portland,Clothing,Shoes,7,371.37,2599.59,735.73
+223,2024-03-24,C7703,Customer_256,South,Georgia,Atlanta,Food & Beverages,Snacks,5,832.97,4164.85,280.25
+224,2023-06-07,C8851,Customer_299,South,Georgia,Savannah,Furniture,Sofa,7,791.19,5538.33,379.33
+225,2024-07-03,C5067,Customer_182,West,Oregon,Eugene,Electronics,Headphones,10,641.8,6418.0,457.25
+226,2024-03-16,C9366,Customer_266,South,Georgia,Atlanta,Food & Beverages,Juice,2,20.44,40.88,4.69
+227,2024-05-27,C2712,Customer_152,South,Florida,Orlando,Food & Beverages,Bread,3,351.52,1054.56,59.2
+228,2023-11-16,C8912,Customer_179,West,California,Los Angeles,Furniture,Sofa,6,460.78,2764.68,281.21
+229,2023-03-10,C1370,Customer_176,West,California,San Francisco,Food & Beverages,Juice,5,54.24,271.2,61.75
+230,2024-07-19,C8570,Customer_119,North,Pennsylvania,Philadelphia,Furniture,Table,3,337.68,1013.04,158.63
+231,2024-02-10,C8365,Customer_220,West,Oregon,Portland,Furniture,Desk,1,740.01,740.01,200.38
+232,2023-03-06,C4063,Customer_188,West,California,Los Angeles,Furniture,Sofa,10,110.73,1107.3,296.75
+233,2024-05-16,C7367,Customer_201,East,Virginia,Norfolk,Electronics,Headphones,9,966.26,8696.34,1116.18
+234,2023-11-01,C6131,Customer_61,North,Massachusetts,Cambridge,Food & Beverages,Snacks,10,594.27,5942.7,1295.67
+235,2023-05-25,C7286,Customer_217,South,Florida,Miami,Furniture,Sofa,9,394.58,3551.22,707.07
+236,2023-10-23,C1878,Customer_184,South,Florida,Miami,Furniture,Desk,3,195.23,585.69,152.57
+237,2024-07-29,C9056,Customer_213,North,Massachusetts,Boston,Furniture,Desk,9,656.54,5908.86,899.82
+238,2023-08-14,C5729,Customer_87,West,Washington,Seattle,Electronics,Laptop,5,42.37,211.85,22.5
+239,2023-10-02,C1681,Customer_226,West,Oregon,Eugene,Electronics,Laptop,9,825.05,7425.45,1052.3
+240,2023-02-03,C2425,Customer_225,South,Florida,Miami,Furniture,Sofa,8,270.19,2161.52,573.99
+241,2023-06-19,C4390,Customer_31,North,New York,New York City,Clothing,Shoes,10,147.84,1478.4,150.29
+242,2023-10-27,C9428,Customer_49,East,New Jersey,Jersey City,Furniture,Sofa,5,577.01,2885.05,831.18
+243,2023-05-16,C5055,Customer_202,South,Florida,Miami,Clothing,Jeans,4,154.78,619.12,80.81
+244,2024-04-07,C2525,Customer_207,West,California,San Francisco,Food & Beverages,Bread,2,637.29,1274.58,344.18
+245,2023-12-02,C2526,Customer_235,East,New Jersey,Jersey City,Food & Beverages,Bread,10,12.45,124.5,30.32
+246,2023-08-05,C6533,Customer_281,East,Virginia,Norfolk,Furniture,Desk,8,275.85,2206.8,567.34
+247,2023-02-17,C1266,Customer_64,South,Georgia,Savannah,Clothing,Shirt,2,629.92,1259.84,326.52
+248,2023-07-27,C5489,Customer_48,South,Florida,Orlando,Electronics,Tablet,3,883.33,2649.99,332.48
+249,2023-02-23,C4836,Customer_220,East,Maryland,Baltimore,Clothing,Jeans,7,629.35,4405.45,1019.85
+250,2024-05-03,C8291,Customer_5,North,Pennsylvania,Philadelphia,Electronics,Smartphone,2,141.37,282.74,30.13
+251,2023-05-16,C2678,Customer_53,North,Pennsylvania,Pittsburgh,Electronics,Tablet,8,80.12,640.96,93.43
+252,2023-05-17,C3688,Customer_226,East,Maryland,Rockville,Furniture,Desk,3,77.73,233.19,44.5
+253,2024-03-29,C3017,Customer_197,East,New Jersey,Newark,Furniture,Desk,4,95.82,383.28,28.79
+254,2023-10-11,C5668,Customer_14,East,Maryland,Rockville,Furniture,Table,2,255.69,511.38,102.4
+255,2023-02-25,C9185,Customer_37,East,Virginia,Richmond,Food & Beverages,Juice,4,499.94,1999.76,156.35
+256,2024-08-05,C8717,Customer_38,North,Massachusetts,Cambridge,Furniture,Desk,7,371.76,2602.32,574.42
+257,2023-08-09,C7520,Customer_260,North,Pennsylvania,Philadelphia,Electronics,Headphones,1,923.35,923.35,265.16
+258,2023-03-26,C2369,Customer_159,East,New Jersey,Jersey City,Food & Beverages,Bread,9,542.28,4880.52,430.32
+259,2024-02-05,C2083,Customer_159,North,Pennsylvania,Philadelphia,Furniture,Sofa,10,637.95,6379.5,1649.94
+260,2023-03-30,C1901,Customer_159,West,Oregon,Portland,Electronics,Smartphone,7,124.83,873.81,177.45
+261,2023-06-17,C5247,Customer_86,South,Texas,Houston,Furniture,Chair,8,953.49,7627.92,1378.76
+262,2023-12-10,C2262,Customer_255,East,Virginia,Norfolk,Electronics,Laptop,7,279.26,1954.82,128.96
+263,2024-08-03,C2685,Customer_294,West,Oregon,Eugene,Electronics,Tablet,3,374.01,1122.03,127.66
+264,2023-09-08,C3458,Customer_92,North,New York,New York City,Electronics,Laptop,1,477.05,477.05,69.53
+265,2023-09-12,C2276,Customer_293,North,Pennsylvania,Pittsburgh,Furniture,Sofa,7,916.7,6416.9,834.09
+266,2024-06-12,C8620,Customer_145,East,Virginia,Richmond,Furniture,Table,1,954.54,954.54,64.18
+267,2024-01-13,C4974,Customer_238,East,Maryland,Baltimore,Food & Beverages,Coffee,4,298.68,1194.72,294.05
+268,2023-06-04,C9872,Customer_178,East,New Jersey,Jersey City,Furniture,Table,1,933.07,933.07,52.23
+269,2023-04-17,C9061,Customer_31,North,Massachusetts,Boston,Food & Beverages,Juice,4,534.52,2138.08,234.21
+270,2023-08-26,C8511,Customer_44,South,Georgia,Savannah,Electronics,Laptop,9,418.93,3770.37,1032.68
+271,2024-08-04,C4879,Customer_150,North,Pennsylvania,Philadelphia,Food & Beverages,Coffee,1,440.63,440.63,128.25
+272,2024-04-08,C3230,Customer_300,East,Maryland,Rockville,Clothing,Jacket,5,241.28,1206.4,344.9
+273,2024-04-22,C4401,Customer_232,North,New York,New York City,Furniture,Desk,6,412.45,2474.7,455.3
+274,2023-06-11,C1660,Customer_111,East,Maryland,Rockville,Electronics,Laptop,5,828.12,4140.6,928.4
+275,2024-02-10,C3848,Customer_16,East,Virginia,Richmond,Furniture,Sofa,9,58.46,526.14,65.62
+276,2023-04-15,C4641,Customer_67,West,Washington,Seattle,Electronics,Tablet,3,130.24,390.72,25.56
+277,2023-03-18,C8265,Customer_66,South,Florida,Orlando,Electronics,Headphones,1,997.19,997.19,99.16
+278,2023-02-21,C7471,Customer_255,North,Massachusetts,Boston,Electronics,Tablet,3,924.89,2774.67,439.2
+279,2023-08-08,C3435,Customer_18,North,Massachusetts,Cambridge,Furniture,Sofa,3,282.23,846.69,136.74
+280,2024-07-17,C3248,Customer_215,South,Georgia,Savannah,Food & Beverages,Bread,8,70.37,562.96,67.52
+281,2024-01-03,C9231,Customer_165,South,Georgia,Atlanta,Electronics,Tablet,8,549.07,4392.56,751.87
+282,2023-08-13,C1959,Customer_242,West,Washington,Seattle,Electronics,Headphones,1,896.81,896.81,219.39
+283,2023-09-11,C1916,Customer_113,East,New Jersey,Newark,Furniture,Chair,4,273.86,1095.44,278.32
+284,2023-11-22,C6761,Customer_291,West,Washington,Seattle,Furniture,Table,6,914.84,5489.04,313.16
+285,2023-06-29,C4584,Customer_11,South,Georgia,Atlanta,Food & Beverages,Juice,8,47.58,380.64,24.38
+286,2023-12-15,C6301,Customer_31,West,California,San Francisco,Furniture,Table,3,919.59,2758.77,720.23
+287,2023-03-16,C2655,Customer_173,North,New York,New York City,Electronics,Headphones,6,707.49,4244.94,914.93
+288,2024-05-13,C6846,Customer_115,East,Maryland,Baltimore,Furniture,Desk,6,182.46,1094.76,319.87
+289,2023-07-01,C7415,Customer_291,South,Florida,Orlando,Clothing,Jeans,1,949.3,949.3,272.61
+290,2024-05-23,C6682,Customer_164,North,New York,Buffalo,Furniture,Chair,3,337.86,1013.58,70.39
+291,2023-01-12,C6742,Customer_132,South,Georgia,Atlanta,Clothing,Shoes,5,217.59,1087.95,242.93
+292,2024-03-24,C9078,Customer_194,North,Pennsylvania,Philadelphia,Electronics,Tablet,7,969.41,6785.87,1839.91
+293,2024-08-14,C1547,Customer_151,East,New Jersey,Jersey City,Electronics,Tablet,4,171.03,684.12,46.81
+294,2023-12-17,C2228,Customer_281,North,Massachusetts,Cambridge,Electronics,Laptop,3,889.05,2667.15,240.65
+295,2023-06-18,C2659,Customer_170,North,Massachusetts,Cambridge,Electronics,Tablet,10,890.86,8908.6,795.32
+296,2023-11-01,C9043,Customer_79,South,Texas,Dallas,Clothing,Jacket,4,104.96,419.84,62.23
+297,2023-10-29,C4390,Customer_88,North,Massachusetts,Boston,Food & Beverages,Coffee,10,485.53,4855.3,360.49
+298,2024-02-12,C2493,Customer_279,East,Virginia,Norfolk,Electronics,Headphones,8,494.21,3953.68,851.07
+299,2023-07-11,C5315,Customer_116,West,California,San Francisco,Food & Beverages,Juice,8,54.17,433.36,69.31
+300,2023-03-29,C4727,Customer_284,East,New Jersey,Newark,Furniture,Chair,6,810.1,4860.6,746.09
+301,2024-05-02,C1568,Customer_258,North,Massachusetts,Cambridge,Food & Beverages,Snacks,5,88.17,440.85,121.54
+302,2023-08-05,C8133,Customer_104,South,Texas,Dallas,Furniture,Table,4,134.92,539.68,84.11
+303,2023-03-31,C5525,Customer_267,South,Georgia,Savannah,Clothing,Shirt,7,560.8,3925.6,738.07
+304,2023-06-03,C2641,Customer_55,West,California,San Francisco,Electronics,Tablet,3,570.93,1712.79,335.14
+305,2024-01-28,C3821,Customer_142,North,Massachusetts,Cambridge,Food & Beverages,Juice,8,576.3,4610.4,775.75
+306,2023-12-06,C5400,Customer_191,West,California,San Francisco,Electronics,Tablet,4,58.8,235.2,39.7
+307,2024-05-18,C5923,Customer_227,North,Massachusetts,Cambridge,Clothing,Jacket,2,972.77,1945.54,208.15
+308,2024-03-28,C8937,Customer_265,East,Maryland,Rockville,Electronics,Smartphone,4,914.3,3657.2,555.14
+309,2024-06-02,C1474,Customer_89,East,Virginia,Richmond,Electronics,Headphones,7,144.29,1010.03,265.46
+310,2024-04-12,C5488,Customer_189,South,Texas,Houston,Furniture,Chair,1,918.85,918.85,207.81
+311,2023-09-05,C8775,Customer_283,West,Oregon,Eugene,Electronics,Laptop,6,493.9,2963.4,478.67
+312,2023-10-19,C4511,Customer_114,East,Maryland,Baltimore,Clothing,Shirt,1,392.7,392.7,35.63
+313,2024-06-09,C1145,Customer_243,South,Georgia,Atlanta,Clothing,Shoes,1,865.98,865.98,252.68
+314,2023-09-16,C5511,Customer_217,South,Georgia,Atlanta,Electronics,Smartphone,10,807.03,8070.3,1019.8
+315,2024-04-22,C7506,Customer_300,West,Washington,Spokane,Clothing,Jeans,5,680.42,3402.1,871.2
+316,2023-04-21,C6327,Customer_142,North,New York,Buffalo,Clothing,Jacket,8,73.2,585.6,173.98
+317,2024-06-13,C7620,Customer_164,East,New Jersey,Jersey City,Furniture,Table,4,900.69,3602.76,905.58
+318,2023-09-23,C4111,Customer_176,South,Georgia,Atlanta,Food & Beverages,Juice,7,410.55,2873.85,673.01
+319,2023-06-24,C3096,Customer_133,South,Georgia,Savannah,Clothing,Jacket,9,189.32,1703.88,126.77
+320,2023-12-30,C6428,Customer_191,South,Georgia,Savannah,Electronics,Smartphone,4,746.77,2987.08,378.68
+321,2024-04-26,C2166,Customer_242,East,New Jersey,Jersey City,Food & Beverages,Coffee,1,867.73,867.73,169.98
+322,2024-02-28,C4281,Customer_176,South,Georgia,Atlanta,Food & Beverages,Juice,1,872.14,872.14,76.48
+323,2023-07-04,C3897,Customer_161,West,Oregon,Eugene,Furniture,Sofa,2,492.71,985.42,204.73
+324,2023-06-22,C2442,Customer_67,North,New York,Buffalo,Clothing,Jeans,10,766.84,7668.4,1321.99
+325,2024-05-03,C7112,Customer_8,West,Oregon,Eugene,Food & Beverages,Bread,7,14.62,102.34,18.77
+326,2023-09-12,C3112,Customer_53,East,New Jersey,Newark,Electronics,Laptop,4,696.59,2786.36,379.19
+327,2023-02-16,C9524,Customer_269,West,Oregon,Eugene,Furniture,Chair,5,948.98,4744.9,778.08
+328,2024-01-03,C7609,Customer_10,East,Maryland,Baltimore,Clothing,Shoes,4,173.23,692.92,191.75
+329,2024-05-31,C1612,Customer_193,South,Texas,Houston,Furniture,Chair,3,131.93,395.79,90.15
+330,2023-01-21,C7230,Customer_64,East,New Jersey,Newark,Electronics,Laptop,1,692.85,692.85,106.83
+331,2023-11-05,C5423,Customer_71,East,Maryland,Baltimore,Furniture,Chair,7,665.05,4655.35,1003.79
+332,2023-04-19,C5308,Customer_268,West,California,Los Angeles,Clothing,Shirt,8,206.66,1653.28,165.22
+333,2023-02-10,C8875,Customer_170,South,Florida,Orlando,Clothing,Jeans,9,501.39,4512.51,459.93
+334,2024-08-10,C9383,Customer_39,South,Texas,Houston,Electronics,Laptop,8,157.65,1261.2,91.46
+335,2023-09-28,C1646,Customer_149,North,Massachusetts,Boston,Food & Beverages,Juice,8,59.58,476.64,120.73
+336,2023-04-08,C3793,Customer_169,East,New Jersey,Jersey City,Food & Beverages,Coffee,1,19.58,19.58,1.66
+337,2023-12-17,C8479,Customer_140,East,Maryland,Rockville,Electronics,Headphones,3,122.69,368.07,55.23
+338,2023-04-26,C3611,Customer_54,West,Oregon,Eugene,Food & Beverages,Snacks,3,699.21,2097.63,135.64
+339,2024-01-24,C3140,Customer_248,West,Oregon,Eugene,Food & Beverages,Snacks,6,615.24,3691.44,980.61
+340,2023-03-06,C9598,Customer_296,West,California,San Francisco,Food & Beverages,Coffee,5,658.42,3292.1,174.78
+341,2023-09-12,C7305,Customer_77,South,Georgia,Savannah,Electronics,Tablet,8,352.29,2818.32,617.42
+342,2023-06-19,C6421,Customer_143,North,New York,New York City,Food & Beverages,Bread,2,753.92,1507.84,196.26
+343,2023-08-29,C8341,Customer_46,North,Pennsylvania,Philadelphia,Food & Beverages,Bread,2,464.5,929.0,232.54
+344,2023-01-19,C9996,Customer_1,West,Washington,Spokane,Electronics,Tablet,2,409.41,818.82,48.28
+345,2023-12-16,C8445,Customer_170,North,Pennsylvania,Pittsburgh,Furniture,Desk,6,827.06,4962.36,1261.17
+346,2023-04-10,C5783,Customer_281,West,Oregon,Eugene,Food & Beverages,Coffee,4,12.17,48.68,6.76
+347,2024-05-19,C7704,Customer_55,East,New Jersey,Newark,Electronics,Smartphone,3,823.62,2470.86,582.2
+348,2024-02-07,C6536,Customer_56,East,New Jersey,Newark,Furniture,Chair,4,462.48,1849.92,453.89
+349,2024-05-31,C1795,Customer_284,West,California,Los Angeles,Food & Beverages,Bread,3,964.22,2892.66,147.77
+350,2023-05-12,C6273,Customer_259,West,Oregon,Eugene,Furniture,Table,2,393.53,787.06,157.52
+351,2023-12-18,C7762,Customer_263,West,Washington,Seattle,Clothing,Shoes,5,458.32,2291.6,190.99
+352,2023-08-03,C3173,Customer_92,East,New Jersey,Jersey City,Furniture,Table,10,717.24,7172.4,1589.78
+353,2024-08-19,C9747,Customer_147,East,New Jersey,Newark,Clothing,Shoes,10,943.25,9432.5,2146.19
+354,2023-05-29,C3636,Customer_147,West,California,Los Angeles,Electronics,Tablet,1,673.55,673.55,67.34
+355,2024-07-08,C4675,Customer_288,East,Virginia,Richmond,Clothing,Jeans,1,365.1,365.1,59.57
+356,2024-02-01,C6122,Customer_283,West,California,San Francisco,Electronics,Tablet,7,957.13,6699.91,1969.48
+357,2023-08-19,C4218,Customer_100,North,New York,Buffalo,Furniture,Desk,6,757.56,4545.36,848.41
+358,2023-06-27,C5572,Customer_285,East,Maryland,Baltimore,Electronics,Smartphone,9,128.16,1153.44,69.39
+359,2023-12-05,C3518,Customer_166,East,Virginia,Richmond,Clothing,Shirt,8,712.59,5700.72,505.66
+360,2023-03-16,C9529,Customer_35,North,Pennsylvania,Pittsburgh,Food & Beverages,Juice,6,530.14,3180.84,920.05
+361,2023-08-15,C5809,Customer_112,South,Florida,Orlando,Electronics,Headphones,4,666.7,2666.8,354.06
+362,2024-04-01,C4994,Customer_21,West,Oregon,Portland,Electronics,Headphones,4,905.45,3621.8,736.77
+363,2024-07-07,C7143,Customer_264,East,Maryland,Baltimore,Food & Beverages,Juice,5,34.46,172.3,30.88
+364,2023-11-25,C9814,Customer_274,West,Washington,Seattle,Clothing,Jeans,9,91.52,823.68,60.94
+365,2024-03-10,C8130,Customer_37,North,Pennsylvania,Philadelphia,Furniture,Table,2,213.52,427.04,109.83
+366,2023-03-31,C2154,Customer_295,South,Texas,Dallas,Clothing,Shirt,2,63.73,127.46,31.68
+367,2024-02-19,C2938,Customer_274,South,Florida,Orlando,Food & Beverages,Bread,7,323.24,2262.68,333.46
+368,2024-01-02,C5937,Customer_45,North,Pennsylvania,Philadelphia,Electronics,Laptop,9,115.07,1035.63,255.51
+369,2024-04-30,C7406,Customer_280,East,Maryland,Rockville,Food & Beverages,Coffee,3,538.13,1614.39,135.76
+370,2023-01-12,C1684,Customer_3,East,New Jersey,Newark,Clothing,Jacket,9,876.02,7884.18,672.86
+371,2023-12-19,C9397,Customer_73,West,Oregon,Portland,Clothing,Jeans,4,418.53,1674.12,354.05
+372,2023-04-28,C1891,Customer_282,South,Texas,Houston,Clothing,Jeans,3,674.27,2022.81,388.02
+373,2023-09-14,C6420,Customer_183,West,Oregon,Portland,Clothing,Shirt,2,205.44,410.88,80.18
+374,2023-03-13,C6008,Customer_300,South,Georgia,Atlanta,Electronics,Headphones,4,324.61,1298.44,211.21
+375,2023-06-22,C8145,Customer_142,South,Georgia,Savannah,Clothing,Shoes,1,320.08,320.08,78.87
+376,2024-04-01,C2783,Customer_90,East,Virginia,Norfolk,Food & Beverages,Bread,6,777.02,4662.12,800.69
+377,2023-03-20,C1511,Customer_298,North,Massachusetts,Boston,Furniture,Sofa,2,893.18,1786.36,468.74
+378,2024-07-10,C6993,Customer_201,West,Oregon,Portland,Electronics,Headphones,9,477.38,4296.42,1047.46
+379,2024-05-28,C1173,Customer_123,South,Georgia,Savannah,Furniture,Desk,9,99.65,896.85,126.43
+380,2023-07-03,C3395,Customer_248,South,Georgia,Atlanta,Food & Beverages,Snacks,10,949.22,9492.2,2039.43
+381,2023-03-06,C4387,Customer_266,East,Virginia,Richmond,Food & Beverages,Snacks,5,375.74,1878.7,114.04
+382,2023-02-10,C5480,Customer_135,East,Maryland,Rockville,Food & Beverages,Coffee,6,112.19,673.14,196.63
+383,2024-06-13,C9460,Customer_208,South,Florida,Orlando,Clothing,Shirt,5,382.57,1912.85,529.5
+384,2024-05-28,C9430,Customer_144,East,Maryland,Rockville,Food & Beverages,Coffee,3,445.5,1336.5,143.67
+385,2023-05-02,C2856,Customer_247,South,Texas,Houston,Furniture,Sofa,4,420.47,1681.88,222.94
+386,2023-01-23,C3639,Customer_69,West,Washington,Seattle,Furniture,Desk,4,52.71,210.84,40.77
+387,2023-09-22,C1305,Customer_146,North,Pennsylvania,Philadelphia,Electronics,Smartphone,3,521.47,1564.41,236.8
+388,2023-06-24,C3979,Customer_262,North,New York,Buffalo,Food & Beverages,Bread,4,832.06,3328.24,666.35
+389,2023-08-24,C4315,Customer_268,East,Virginia,Norfolk,Food & Beverages,Coffee,7,391.61,2741.27,211.47
+390,2023-02-09,C8901,Customer_67,West,California,Los Angeles,Furniture,Desk,9,508.3,4574.7,363.14
+391,2023-02-14,C8899,Customer_196,North,Pennsylvania,Pittsburgh,Food & Beverages,Juice,9,434.67,3912.03,1113.38
+392,2023-09-18,C2373,Customer_146,East,New Jersey,Newark,Food & Beverages,Snacks,8,768.2,6145.6,1705.54
+393,2024-08-14,C4365,Customer_162,West,Washington,Seattle,Electronics,Laptop,9,126.65,1139.85,59.04
+394,2024-08-22,C6990,Customer_142,West,Washington,Seattle,Furniture,Desk,5,268.69,1343.45,247.23
+395,2024-01-15,C6024,Customer_296,West,California,San Francisco,Food & Beverages,Snacks,9,559.36,5034.24,571.11
+396,2023-08-24,C2642,Customer_110,East,New Jersey,Jersey City,Furniture,Chair,8,785.28,6282.24,1804.96
+397,2023-01-06,C8133,Customer_46,West,Washington,Seattle,Furniture,Desk,2,825.02,1650.04,277.07
+398,2023-02-08,C9536,Customer_147,North,Massachusetts,Boston,Clothing,Shirt,7,931.38,6519.66,979.0
+399,2023-07-26,C9364,Customer_265,North,New York,Buffalo,Food & Beverages,Coffee,9,293.15,2638.35,154.09
+400,2023-09-02,C5520,Customer_205,South,Georgia,Atlanta,Electronics,Headphones,1,975.89,975.89,69.98
+401,2024-06-14,C2477,Customer_282,East,New Jersey,Jersey City,Food & Beverages,Snacks,1,739.56,739.56,49.66
+402,2023-08-20,C7618,Customer_295,East,New Jersey,Jersey City,Clothing,Jacket,10,963.43,9634.3,1577.04
+403,2024-07-26,C2917,Customer_263,North,Massachusetts,Boston,Food & Beverages,Coffee,2,508.14,1016.28,137.19
+404,2024-07-30,C8517,Customer_236,East,New Jersey,Jersey City,Food & Beverages,Bread,8,772.27,6178.16,1478.86
+405,2024-01-27,C6172,Customer_212,North,Massachusetts,Boston,Clothing,Shirt,4,680.14,2720.56,292.41
+406,2023-10-22,C6603,Customer_39,East,New Jersey,Newark,Clothing,Jeans,2,404.94,809.88,192.1
+407,2024-08-10,C4115,Customer_256,South,Florida,Orlando,Clothing,Jeans,5,190.96,954.8,225.85
+408,2023-08-23,C6833,Customer_80,South,Texas,Houston,Clothing,Jeans,4,836.59,3346.36,866.99
+409,2024-07-08,C6167,Customer_253,North,New York,New York City,Food & Beverages,Coffee,1,849.53,849.53,121.31
+410,2023-08-16,C7933,Customer_245,East,Maryland,Baltimore,Clothing,Shoes,10,136.96,1369.6,248.49
+411,2024-04-13,C1137,Customer_7,North,Pennsylvania,Pittsburgh,Food & Beverages,Snacks,2,701.26,1402.52,231.44
+412,2023-09-23,C8722,Customer_176,South,Florida,Miami,Clothing,Jacket,3,553.08,1659.24,181.33
+413,2024-03-05,C8384,Customer_93,East,Virginia,Norfolk,Food & Beverages,Snacks,6,371.43,2228.58,334.62
+414,2023-08-30,C3389,Customer_77,South,Georgia,Atlanta,Electronics,Headphones,9,437.9,3941.1,572.33
+415,2023-05-18,C8972,Customer_154,West,California,Los Angeles,Food & Beverages,Bread,9,538.64,4847.76,625.03
+416,2023-06-17,C2577,Customer_231,East,New Jersey,Newark,Food & Beverages,Coffee,1,223.31,223.31,25.36
+417,2023-12-19,C4259,Customer_296,East,Maryland,Rockville,Clothing,Jacket,1,417.64,417.64,57.54
+418,2024-04-02,C3373,Customer_86,South,Florida,Orlando,Clothing,Shoes,2,387.26,774.52,94.21
+419,2023-06-15,C5773,Customer_137,East,Maryland,Rockville,Electronics,Laptop,6,235.94,1415.64,182.93
+420,2024-02-28,C4844,Customer_129,West,Washington,Spokane,Clothing,Shoes,3,192.05,576.15,32.13
+421,2023-04-08,C1881,Customer_14,North,New York,New York City,Food & Beverages,Coffee,2,937.43,1874.86,315.53
+422,2023-06-09,C6068,Customer_118,West,Oregon,Portland,Electronics,Headphones,2,658.28,1316.56,357.27
+423,2023-05-15,C6846,Customer_167,South,Georgia,Savannah,Food & Beverages,Snacks,9,840.13,7561.17,432.07
+424,2024-07-06,C8126,Customer_269,West,Washington,Spokane,Food & Beverages,Snacks,3,594.92,1784.76,292.94
+425,2024-03-28,C5973,Customer_6,East,Maryland,Rockville,Furniture,Chair,5,372.13,1860.65,213.88
+426,2024-04-25,C8816,Customer_154,North,Pennsylvania,Philadelphia,Clothing,Jacket,9,18.23,164.07,46.03
+427,2024-07-15,C8161,Customer_203,North,Massachusetts,Cambridge,Furniture,Chair,6,196.69,1180.14,319.28
+428,2023-09-27,C5454,Customer_146,South,Texas,Dallas,Food & Beverages,Snacks,2,428.02,856.04,94.07
+429,2023-05-20,C8418,Customer_140,East,Maryland,Baltimore,Electronics,Smartphone,5,119.25,596.25,97.69
+430,2023-02-20,C5622,Customer_138,West,California,San Francisco,Electronics,Smartphone,9,31.91,287.19,84.17
+431,2023-04-03,C7885,Customer_160,South,Georgia,Savannah,Electronics,Smartphone,3,24.58,73.74,7.69
+432,2023-03-24,C2169,Customer_279,West,Washington,Spokane,Electronics,Headphones,3,65.48,196.44,47.91
+433,2023-01-13,C7304,Customer_227,West,California,Los Angeles,Clothing,Shoes,2,974.85,1949.7,445.84
+434,2023-04-07,C7375,Customer_160,South,Georgia,Atlanta,Furniture,Desk,9,669.35,6024.15,615.14
+435,2024-05-07,C4568,Customer_58,East,Virginia,Richmond,Electronics,Headphones,5,206.74,1033.7,281.04
+436,2023-06-21,C4982,Customer_5,South,Georgia,Savannah,Clothing,Shirt,5,588.85,2944.25,438.55
+437,2023-04-02,C6544,Customer_31,North,Pennsylvania,Pittsburgh,Furniture,Sofa,4,166.12,664.48,48.41
+438,2024-05-14,C6690,Customer_225,North,Massachusetts,Boston,Electronics,Smartphone,4,323.57,1294.28,245.38
+439,2023-09-14,C5828,Customer_278,South,Texas,Dallas,Clothing,Jeans,1,490.45,490.45,78.17
+440,2024-04-24,C3627,Customer_36,West,California,Los Angeles,Clothing,Jacket,5,868.99,4344.95,867.56
+441,2024-04-09,C4039,Customer_10,South,Florida,Orlando,Clothing,Jacket,1,778.16,778.16,137.34
+442,2024-07-05,C3525,Customer_145,East,New Jersey,Newark,Clothing,Shirt,7,197.97,1385.79,305.99
+443,2024-06-19,C3926,Customer_17,East,Maryland,Rockville,Electronics,Laptop,2,53.34,106.68,30.35
+444,2023-02-02,C9026,Customer_270,South,Texas,Dallas,Furniture,Chair,10,645.33,6453.3,949.6
+445,2023-01-14,C2310,Customer_240,East,Virginia,Norfolk,Furniture,Chair,4,659.19,2636.76,743.83
+446,2023-09-30,C5979,Customer_40,North,Massachusetts,Cambridge,Clothing,Shirt,9,50.25,452.25,30.57
+447,2024-06-28,C5075,Customer_292,South,Georgia,Atlanta,Electronics,Smartphone,7,197.57,1382.99,251.08
+448,2024-04-14,C3955,Customer_282,South,Georgia,Savannah,Electronics,Headphones,7,884.0,6188.0,567.45
+449,2023-12-27,C7090,Customer_212,West,Oregon,Eugene,Furniture,Desk,6,554.58,3327.48,995.62
+450,2024-01-20,C8412,Customer_230,West,Oregon,Eugene,Furniture,Table,9,926.89,8342.01,947.0
+451,2024-06-14,C5920,Customer_114,West,California,Los Angeles,Clothing,Shirt,3,993.48,2980.44,373.93
+452,2023-04-07,C5341,Customer_188,South,Florida,Miami,Clothing,Jeans,1,465.77,465.77,41.47
+453,2024-08-07,C2264,Customer_167,South,Texas,Dallas,Clothing,Shirt,7,573.37,4013.59,418.86
+454,2023-02-08,C6478,Customer_179,West,California,San Francisco,Electronics,Headphones,10,387.73,3877.3,950.06
+455,2024-01-27,C9846,Customer_290,West,Washington,Seattle,Furniture,Chair,1,311.74,311.74,18.8
+456,2024-02-07,C2475,Customer_114,South,Florida,Miami,Furniture,Chair,8,755.31,6042.48,1171.12
+457,2023-12-11,C9980,Customer_205,West,Washington,Spokane,Furniture,Table,2,481.1,962.2,227.4
+458,2023-05-19,C4212,Customer_288,East,Virginia,Norfolk,Food & Beverages,Snacks,8,563.7,4509.6,775.49
+459,2023-11-28,C7939,Customer_188,South,Texas,Houston,Clothing,Shoes,10,98.7,987.0,215.1
+460,2023-11-09,C8245,Customer_75,East,Virginia,Norfolk,Clothing,Shirt,3,987.78,2963.34,604.69
+461,2023-06-09,C3419,Customer_148,West,California,Los Angeles,Furniture,Sofa,2,121.25,242.5,15.43
+462,2024-04-27,C4471,Customer_105,North,Massachusetts,Boston,Clothing,Shoes,1,338.56,338.56,79.56
+463,2024-01-21,C5185,Customer_88,East,New Jersey,Jersey City,Furniture,Chair,10,906.98,9069.8,1647.98
+464,2024-04-21,C6901,Customer_56,North,Massachusetts,Boston,Clothing,Shirt,1,75.93,75.93,16.33
+465,2024-06-04,C9709,Customer_46,North,Massachusetts,Cambridge,Furniture,Desk,2,904.83,1809.66,309.75
+466,2023-09-11,C3572,Customer_10,South,Texas,Dallas,Electronics,Laptop,9,311.88,2806.92,484.15
+467,2023-08-30,C5221,Customer_199,East,New Jersey,Jersey City,Clothing,Jacket,9,283.12,2548.08,166.91
+468,2023-12-16,C7262,Customer_267,North,Pennsylvania,Pittsburgh,Furniture,Table,7,660.36,4622.52,332.58
+469,2023-11-16,C4387,Customer_71,South,Florida,Miami,Furniture,Desk,10,335.99,3359.9,623.46
+470,2023-05-29,C9732,Customer_61,South,Texas,Dallas,Furniture,Desk,10,917.94,9179.4,1187.58
+471,2024-02-28,C5485,Customer_78,South,Florida,Miami,Electronics,Headphones,7,310.31,2172.17,513.51
+472,2023-10-01,C4804,Customer_119,South,Texas,Houston,Furniture,Chair,10,571.37,5713.7,615.52
+473,2024-05-29,C4014,Customer_199,North,Massachusetts,Boston,Food & Beverages,Snacks,10,474.08,4740.8,1006.91
+474,2023-08-20,C5421,Customer_212,West,Washington,Seattle,Furniture,Table,1,414.5,414.5,121.12
+475,2023-07-01,C6323,Customer_235,South,Georgia,Atlanta,Furniture,Chair,8,868.46,6947.68,1198.38
+476,2023-11-17,C9784,Customer_269,South,Florida,Orlando,Electronics,Tablet,7,615.39,4307.73,1014.97
+477,2023-02-13,C1643,Customer_286,North,Pennsylvania,Philadelphia,Food & Beverages,Bread,4,523.52,2094.08,311.81
+478,2024-03-26,C5684,Customer_237,West,Oregon,Portland,Furniture,Sofa,7,885.55,6198.85,1508.92
+479,2024-04-19,C3945,Customer_300,South,Florida,Orlando,Electronics,Smartphone,8,99.54,796.32,139.49
+480,2023-01-26,C4308,Customer_233,South,Florida,Orlando,Clothing,Shoes,3,459.14,1377.42,377.63
+481,2023-04-04,C2397,Customer_269,North,Massachusetts,Cambridge,Furniture,Chair,2,709.16,1418.32,295.75
+482,2023-02-14,C3459,Customer_84,West,Oregon,Portland,Food & Beverages,Bread,3,913.13,2739.39,524.24
+483,2023-11-13,C3155,Customer_104,South,Texas,Houston,Food & Beverages,Juice,8,295.89,2367.12,225.29
+484,2024-05-24,C9084,Customer_122,North,Pennsylvania,Pittsburgh,Electronics,Tablet,8,548.07,4384.56,225.53
+485,2024-03-28,C9967,Customer_143,South,Georgia,Savannah,Food & Beverages,Bread,2,605.2,1210.4,62.51
+486,2023-12-24,C5889,Customer_170,South,Texas,Houston,Furniture,Chair,1,153.92,153.92,8.94
+487,2023-06-15,C3906,Customer_234,North,New York,New York City,Food & Beverages,Snacks,5,614.98,3074.9,685.33
+488,2024-01-13,C2063,Customer_150,East,Virginia,Richmond,Clothing,Jacket,7,822.06,5754.42,1378.82
+489,2024-06-23,C1953,Customer_56,West,California,Los Angeles,Clothing,Jacket,7,529.4,3705.8,829.94
+490,2023-09-23,C3125,Customer_289,North,Massachusetts,Cambridge,Food & Beverages,Juice,9,579.39,5214.51,1073.2
+491,2023-08-27,C1392,Customer_239,West,Oregon,Eugene,Food & Beverages,Snacks,5,979.47,4897.35,246.8
+492,2023-02-16,C4478,Customer_6,North,Pennsylvania,Philadelphia,Food & Beverages,Bread,6,356.15,2136.9,537.45
+493,2023-11-12,C1100,Customer_59,South,Georgia,Savannah,Clothing,Shirt,5,511.62,2558.1,335.06
+494,2023-07-18,C8849,Customer_243,East,Maryland,Rockville,Electronics,Smartphone,6,835.49,5012.94,1406.48
+495,2024-04-16,C7782,Customer_29,North,Pennsylvania,Philadelphia,Food & Beverages,Snacks,9,896.97,8072.73,1336.99
+496,2024-08-14,C6793,Customer_34,East,New Jersey,Jersey City,Electronics,Smartphone,6,801.54,4809.24,1308.15
+497,2024-07-01,C2914,Customer_158,South,Florida,Miami,Clothing,Shoes,3,575.27,1725.81,254.37
+498,2023-03-30,C5958,Customer_111,East,New Jersey,Newark,Clothing,Shoes,8,878.28,7026.24,1004.02
+499,2023-07-26,C8907,Customer_257,East,Virginia,Richmond,Clothing,Shirt,2,449.34,898.68,50.54
+500,2023-12-02,C9456,Customer_68,South,Texas,Dallas,Food & Beverages,Juice,3,771.79,2315.37,172.64
